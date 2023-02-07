@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mz.catanfx.demo.BoardController">
+   <children>
+      <Polygon fx:id="H1" fill="#b0b8bf" layoutX="200.0" layoutY="125.0" scaleX="0.5" scaleY="0.5" scaleZ="0.5" stroke="BLACK" strokeType="INSIDE">
+         <points>
+         <Double fx:value="-50.0" />
+         <Double fx:value="30.0" />
+         <Double fx:value="0.0" />
+         <Double fx:value="60.0" />
+         <Double fx:value="50.0" />
+         <Double fx:value="30.0" />
+         <Double fx:value="50.0" />
+         <Double fx:value="-30.0" />
+         <Double fx:value="0.0" />
+         <Double fx:value="-60.0" />
+         <Double fx:value="-50.0" />
+         <Double fx:value="-30.0" />
+      </points>
+      </Polygon>
+      <Polygon fx:id="H2" fill="#b0b8bf" layoutX="250.0" layoutY="125.0" scaleX="0.5" scaleY="0.5" scaleZ="0.5" stroke="BLACK" strokeType="INSIDE">
+         <points>
+            <Double fx:value="-50.0" />
+            <Double fx:value="30.0" />
+            <Double fx:value="0.0" />
+            <Double fx:value="60.0" />
+            <Double fx:value="50.0" />
+            <Double fx:value="30.0" />
+            <Double fx:value="50.0" />
+            <Double fx:value="-30.0" />
+            <Double fx:value="0.0" />
+            <Double fx:value="-60.0" />
+            <Double fx:value="-50.0" />
+            <Double fx:value="-30.0" />
+         </points>
+      </Polygon>
+      <Polygon fx:id="H3" fill="#b0b8bf" layoutX="300.0" layoutY="125.0" scaleX="0.5" scaleY="0.5" scaleZ="0.5" stroke="BLACK" strokeType="INSIDE">
+         <points>
+            <Double fx:value="-50.0" />
+            <Double fx:value="30.0" />
+            <Double fx:value="0.0" />
+            <Double fx:value="60.0" />
+            <Double fx:value="50.0" />
+            <Double fx:value="30.0" />
+            <Double fx:value="50.0" />
+            <Double fx:value="-30.0" />
+            <Double fx:value="0.0" />
+            <Double fx:value="-60.0" />
+            <Double fx:value="-50.0" />
+            <Double fx:value="-30.0" />
+         </points>
+      </Polygon>
+      <Polygon fx:id="H4" fill="#b0b8bf" layoutX="175.0" layoutY="170.0" scaleX="0.5" scaleY="0.5" scaleZ="0.5" stroke="BLACK" strokeType="INSIDE">
+         <points>
+            <Double fx:value="-50.0" />
+            <Double fx:value="30.0" />
+            <Double fx:value="0.0" />
+            <Double fx:value="60.0" />
+            <Double fx:value="50.0" />
+            <Double fx:value="30.0" />
+            <Double fx:value="50.0" />
+            <Double fx:value="-30.0" />
+            <Double fx:value="0.0" />
+            <Double fx:value="-60.0" />
+            <Double fx:value="-50.0" />
+            <Double fx:value="-30.0" />
+         </points>
+      </Polygon>
+      <Polygon fx:id="H5" fill="#b0b8bf" layoutX="225.0" layoutY="170.0" scaleX="0.5" scaleY="0.5" scaleZ="0.5" stroke="BLACK" strokeType="INSIDE">
+         <points>
+            <Double fx:value="-50.0" />
+            <Double fx:value="30.0" />
+            <Double fx:value="0.0" />
+            <Double fx:value="60.0" />
+            <Double fx:value="50.0" />
+            <Double fx:value="30.0" />
+            <Double fx:value="50.0" />
+            <Double fx:value="-30.0" />
+            <Double fx:value="0.0" />
+            <Double fx:value="-60.0" />
+            <Double fx:value="-50.0" />
+            <Double fx:value="-30.0" />
+         </points>
+      </Polygon>
+      <Polygon fx:id="H6" fill="#b0b8bf" layoutX="275.0" layoutY="170.0" scaleX="0.5" scaleY="0.5" scaleZ="0.5" stroke="BLACK" strokeType="INSIDE">
+         <points>
+            <Double fx:value="-50.0" />
+            <Double fx:value="30.0" />
+            <Double fx:value="0.0" />
+            <Double fx:value="60.0" />
+            <Double fx:value="50.0" />
+            <Double fx:value="30.0" />
+            <Double fx:value="50.0" />
+            <Double fx:value="-30.0" />
+            <Double fx:value="0.0" />
+            <Double fx:value="-60.0" />
+            <Double fx:value="-50.0" />
+            <Double fx:value="-30.0" />
+         </points>
+      </Polygon><Polygon fx:id="H7" fill="#b0b8bf" layoutX="325.0" layoutY="170.0" scaleX="0.5" scaleY="0.5" scaleZ="0.5" stroke="BLACK" strokeType="INSIDE">
+         <points>
+         <Double fx:value="-50.0" />
+         <Double fx:value="30.0" />
+         <Double fx:value="0.0" />
+         <Double fx:value="60.0" />
+         <Double fx:value="50.0" />
+         <Double fx:value="30.0" />
+         <Double fx:value="50.0" />
+         <Double fx:value="-30.0" />
+         <Double fx:value="0.0" />
+         <Double fx:value="-60.0" />
+         <Double fx:value="-50.0" />
+         <Double fx:value="-30.0" />
+
+
+
+      </points>
+      </Polygon><Polygon fx:id="H8" fill="#b0b8bf" layoutX="150.0" layoutY="215.0" scaleX="0.5" scaleY="0.5" scaleZ="0.5" stroke="BLACK" strokeType="INSIDE">
+         <points>
+         <Double fx:value="-50.0" />
+         <Double fx:value="30.0" />
+         <Double fx:value="0.0" />
+         <Double fx:value="60.0" />
+         <Double fx:value="50.0" />
+         <Double fx:value="30.0" />
+         <Double fx:value="50.0" />
+         <Double fx:value="-30.0" />
+         <Double fx:value="0.0" />
+         <Double fx:value="-60.0" />
+         <Double fx:value="-50.0" />
+         <Double fx:value="-30.0" />
+
+
+
+      </points>
+      </Polygon><Polygon fx:id="H9" fill="#b0b8bf" layoutX="200.0" layoutY="215.0" scaleX="0.5" scaleY="0.5" scaleZ="0.5" stroke="BLACK" strokeType="INSIDE">
+         <points>
+         <Double fx:value="-50.0" />
+         <Double fx:value="30.0" />
+         <Double fx:value="0.0" />
+         <Double fx:value="60.0" />
+         <Double fx:value="50.0" />
+         <Double fx:value="30.0" />
+         <Double fx:value="50.0" />
+         <Double fx:value="-30.0" />
+         <Double fx:value="0.0" />
+         <Double fx:value="-60.0" />
+         <Double fx:value="-50.0" />
+         <Double fx:value="-30.0" />
+
+
+
+      </points>
+      </Polygon><Polygon fx:id="H10" fill="#b0b8bf" layoutX="250.0" layoutY="215.0" scaleX="0.5" scaleY="0.5" scaleZ="0.5" stroke="BLACK" strokeType="INSIDE">
+         <points>
+         <Double fx:value="-50.0" />
+         <Double fx:value="30.0" />
+         <Double fx:value="0.0" />
+         <Double fx:value="60.0" />
+         <Double fx:value="50.0" />
+         <Double fx:value="30.0" />
+         <Double fx:value="50.0" />
+         <Double fx:value="-30.0" />
+         <Double fx:value="0.0" />
+         <Double fx:value="-60.0" />
+         <Double fx:value="-50.0" />
+         <Double fx:value="-30.0" />
+
+
+
+      </points>
+      </Polygon><Polygon fx:id="H11" fill="#b0b8bf" layoutX="300.0" layoutY="215.0" scaleX="0.5" scaleY="0.5" scaleZ="0.5" stroke="BLACK" strokeType="INSIDE">
+         <points>
+         <Double fx:value="-50.0" />
+         <Double fx:value="30.0" />
+         <Double fx:value="0.0" />
+         <Double fx:value="60.0" />
+         <Double fx:value="50.0" />
+         <Double fx:value="30.0" />
+         <Double fx:value="50.0" />
+         <Double fx:value="-30.0" />
+         <Double fx:value="0.0" />
+         <Double fx:value="-60.0" />
+         <Double fx:value="-50.0" />
+         <Double fx:value="-30.0" />
+
+
+
+      </points>
+      </Polygon><Polygon fx:id="H12" fill="#b0b8bf" layoutX="350.0" layoutY="215.0" scaleX="0.5" scaleY="0.5" scaleZ="0.5" stroke="BLACK" strokeType="INSIDE">
+         <points>
+         <Double fx:value="-50.0" />
+         <Double fx:value="30.0" />
+         <Double fx:value="0.0" />
+         <Double fx:value="60.0" />
+         <Double fx:value="50.0" />
+         <Double fx:value="30.0" />
+         <Double fx:value="50.0" />
+         <Double fx:value="-30.0" />
+         <Double fx:value="0.0" />
+         <Double fx:value="-60.0" />
+         <Double fx:value="-50.0" />
+         <Double fx:value="-30.0" />
+
+
+
+      </points>
+      </Polygon><Polygon fx:id="H13" fill="#b0b8bf" layoutX="175.0" layoutY="260.0" scaleX="0.5" scaleY="0.5" scaleZ="0.5" stroke="BLACK" strokeType="INSIDE">
+         <points>
+         <Double fx:value="-50.0" />
+         <Double fx:value="30.0" />
+         <Double fx:value="0.0" />
+         <Double fx:value="60.0" />
+         <Double fx:value="50.0" />
+         <Double fx:value="30.0" />
+         <Double fx:value="50.0" />
+         <Double fx:value="-30.0" />
+         <Double fx:value="0.0" />
+         <Double fx:value="-60.0" />
+         <Double fx:value="-50.0" />
+         <Double fx:value="-30.0" />
+
+
+
+      </points>
+      </Polygon><Polygon fx:id="H14" fill="#b0b8bf" layoutX="225.0" layoutY="260.0" scaleX="0.5" scaleY="0.5" scaleZ="0.5" stroke="BLACK" strokeType="INSIDE">
+         <points>
+         <Double fx:value="-50.0" />
+         <Double fx:value="30.0" />
+         <Double fx:value="0.0" />
+         <Double fx:value="60.0" />
+         <Double fx:value="50.0" />
+         <Double fx:value="30.0" />
+         <Double fx:value="50.0" />
+         <Double fx:value="-30.0" />
+         <Double fx:value="0.0" />
+         <Double fx:value="-60.0" />
+         <Double fx:value="-50.0" />
+         <Double fx:value="-30.0" />
+      </points>
+      </Polygon><Polygon fx:id="H15" fill="#b0b8bf" layoutX="275.0" layoutY="260.0" scaleX="0.5" scaleY="0.5" scaleZ="0.5" stroke="BLACK" strokeType="INSIDE">
+         <points>
+         <Double fx:value="-50.0" />
+         <Double fx:value="30.0" />
+         <Double fx:value="0.0" />
+         <Double fx:value="60.0" />
+         <Double fx:value="50.0" />
+         <Double fx:value="30.0" />
+         <Double fx:value="50.0" />
+         <Double fx:value="-30.0" />
+         <Double fx:value="0.0" />
+         <Double fx:value="-60.0" />
+         <Double fx:value="-50.0" />
+         <Double fx:value="-30.0" />
+      </points>
+      </Polygon><Polygon fx:id="H16" fill="#b0b8bf" layoutX="325.0" layoutY="260.0" scaleX="0.5" scaleY="0.5" scaleZ="0.5" stroke="BLACK" strokeType="INSIDE">
+         <points>
+         <Double fx:value="-50.0" />
+         <Double fx:value="30.0" />
+         <Double fx:value="0.0" />
+         <Double fx:value="60.0" />
+         <Double fx:value="50.0" />
+         <Double fx:value="30.0" />
+         <Double fx:value="50.0" />
+         <Double fx:value="-30.0" />
+         <Double fx:value="0.0" />
+         <Double fx:value="-60.0" />
+         <Double fx:value="-50.0" />
+         <Double fx:value="-30.0" />
+      </points>
+      </Polygon><Polygon fx:id="H17" fill="#b0b8bf" layoutX="200.0" layoutY="304.0" scaleX="0.5" scaleY="0.5" scaleZ="0.5" stroke="BLACK" strokeType="INSIDE">
+         <points>
+         <Double fx:value="-50.0" />
+         <Double fx:value="30.0" />
+         <Double fx:value="0.0" />
+         <Double fx:value="60.0" />
+         <Double fx:value="50.0" />
+         <Double fx:value="30.0" />
+         <Double fx:value="50.0" />
+         <Double fx:value="-30.0" />
+         <Double fx:value="0.0" />
+         <Double fx:value="-60.0" />
+         <Double fx:value="-50.0" />
+         <Double fx:value="-30.0" />
+      </points>
+      </Polygon><Polygon fx:id="H18" fill="#b0b8bf" layoutX="250.0" layoutY="304.0" scaleX="0.5" scaleY="0.5" scaleZ="0.5" stroke="BLACK" strokeType="INSIDE">
+         <points>
+         <Double fx:value="-50.0" />
+         <Double fx:value="30.0" />
+         <Double fx:value="0.0" />
+         <Double fx:value="60.0" />
+         <Double fx:value="50.0" />
+         <Double fx:value="30.0" />
+         <Double fx:value="50.0" />
+         <Double fx:value="-30.0" />
+         <Double fx:value="0.0" />
+         <Double fx:value="-60.0" />
+         <Double fx:value="-50.0" />
+         <Double fx:value="-30.0" />
+
+
+
+      </points>
+      </Polygon><Polygon fx:id="H19" fill="#b0b8bf" layoutX="300.0" layoutY="304.0" scaleX="0.5" scaleY="0.5" scaleZ="0.5" stroke="BLACK" strokeType="INSIDE">
+         <points>
+         <Double fx:value="-50.0" />
+         <Double fx:value="30.0" />
+         <Double fx:value="0.0" />
+         <Double fx:value="60.0" />
+         <Double fx:value="50.0" />
+         <Double fx:value="30.0" />
+         <Double fx:value="50.0" />
+         <Double fx:value="-30.0" />
+         <Double fx:value="0.0" />
+         <Double fx:value="-60.0" />
+         <Double fx:value="-50.0" />
+         <Double fx:value="-30.0" />
+      </points>
+      </Polygon>
+      <Button fx:id="DiceRoll" layoutX="58.0" layoutY="56.0" mnemonicParsing="false" onAction="#RollDiceEvent" text="Role Dice" />
+      <Button layoutX="412.0" layoutY="82.0" mnemonicParsing="false" onAction="#buildVillage" text="Build Town" />
+      <Button layoutX="417.0" layoutY="120.0" mnemonicParsing="false" onAction="#buildCity" text="Build City" />
+      <Button layoutX="413.0" layoutY="161.0" mnemonicParsing="false" onAction="#buildRoad" text="Build Road" />
+      <Button layoutX="412.0" layoutY="291.0" mnemonicParsing="false" onAction="#SwitchPlayer" text="Next Player" />
+
+      <Circle id="35" fx:id="C35" fill="DODGERBLUE" layoutX="301.0" layoutY="245.0" onMouseClicked="#PlaceC35" opacity="0.1" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle id="14" fx:id="C14" fill="DODGERBLUE" layoutX="301.0" layoutY="155.0" onMouseClicked="#PlaceC14" opacity="0.1" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle id="12" fx:id="C12" fill="DODGERBLUE" layoutX="251.0" layoutY="154.0" onMouseClicked="#PlaceC12" opacity="0.1" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle id="13" fx:id="C13" fill="DODGERBLUE" layoutX="276.0" layoutY="141.0" onMouseClicked="#PlaceC13" opacity="0.1" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle id="22" fx:id="C22" fill="DODGERBLUE" layoutX="250.0" layoutY="185.0" onMouseClicked="#PlaceC22" opacity="0.1" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle id="23" fx:id="C23" fill="DODGERBLUE" layoutX="275.0" layoutY="198.0" onMouseClicked="#PlaceC23" opacity="0.1" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle id="24" fx:id="C24" fill="DODGERBLUE" layoutX="300.0" layoutY="185.0" onMouseClicked="#PlaceC24" opacity="0.1" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle id="1" fx:id="C1" fill="DODGERBLUE" layoutX="176.0" layoutY="110.0" onMouseClicked="#PlaceC1" opacity="0.1" radius="8.0" stroke="BLACK" strokeType="INSIDE">
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor></Circle>
+      <Circle id="2" fx:id="C2" fill="DODGERBLUE" layoutX="200.0" layoutY="97.0" onMouseClicked="#PlaceC2" opacity="0.1" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle id="3" fx:id="C3" fill="DODGERBLUE" layoutX="224.0" layoutY="110.0" onMouseClicked="#PlaceC3" opacity="0.1" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle id="11" fx:id="C11" fill="DODGERBLUE" layoutX="225.0" layoutY="141.0" onMouseClicked="#PlaceC11" opacity="0.1" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle id="9" fx:id="C9" fill="DODGERBLUE" layoutX="176.0" layoutY="140.0" onMouseClicked="#PlaceC9" opacity="0.1" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle id="10" fx:id="C10" fill="DODGERBLUE" layoutX="200.0" layoutY="155.0" onMouseClicked="#PlaceC10" opacity="0.1" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle id="4" fx:id="C4" fill="DODGERBLUE" layoutX="250.0" layoutY="98.0" onMouseClicked="#PlaceC4" opacity="0.1" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle id="5" fx:id="C5" fill="DODGERBLUE" layoutX="276.0" layoutY="112.0" onMouseClicked="#PlaceC5" opacity="0.1" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle id="6" fx:id="C6" fill="DODGERBLUE" layoutX="301.0" layoutY="95.0" onMouseClicked="#PlaceC6" opacity="0.1" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle id="7" fx:id="C7" fill="DODGERBLUE" layoutX="325.0" layoutY="112.0" onMouseClicked="#PlaceC7" opacity="0.1" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle id="15" fx:id="C15" fill="DODGERBLUE" layoutX="325.0" layoutY="141.0" onMouseClicked="#PlaceC15" opacity="0.1" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle id="16" fx:id="C16" fill="DODGERBLUE" layoutX="350.0" layoutY="155.0" onMouseClicked="#PlaceC16" opacity="0.1" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle id="26" fx:id="C26" fill="DODGERBLUE" layoutX="350.0" layoutY="185.0" onMouseClicked="#PlaceC26" opacity="0.1" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle id="27" fx:id="C27" fill="DODGERBLUE" layoutX="375.0" layoutY="200.0" onMouseClicked="#PlaceC27" opacity="0.1" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle id="25" fx:id="C25" fill="DODGERBLUE" layoutX="326.0" layoutY="198.0" onMouseClicked="#PlaceC25" opacity="0.1" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle id="21" fx:id="C21" fill="DODGERBLUE" layoutX="225.0" layoutY="200.0" onMouseClicked="#PlaceC21" opacity="0.1" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle id="20" fx:id="C20" fill="DODGERBLUE" layoutX="200.0" layoutY="185.0" onMouseClicked="#PlaceC20" opacity="0.1" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle id="18" fx:id="C18" fill="DODGERBLUE" layoutX="150.0" layoutY="185.0" onMouseClicked="#PlaceC18" opacity="0.1" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle id="8" fx:id="C8" fill="DODGERBLUE" layoutX="150.0" layoutY="155.0" onMouseClicked="#PlaceC8" opacity="0.1" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle id="19" fx:id="C19" fill="DODGERBLUE" layoutX="176.0" layoutY="200.0" onMouseClicked="#PlaceC19" opacity="0.1" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle id="17" fx:id="C17" fill="DODGERBLUE" layoutX="127.0" layoutY="200.0" onMouseClicked="#PlaceC17" opacity="0.1" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle id="28" fx:id="C28" fill="DODGERBLUE" layoutX="125.0" layoutY="227.0" onMouseClicked="#PlaceC28" opacity="0.1" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle id="29" fx:id="C29" fill="DODGERBLUE" layoutX="150.0" layoutY="244.0" onMouseClicked="#PlaceC29" opacity="0.1" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle id="30" fx:id="C30" fill="DODGERBLUE" layoutX="175.0" layoutY="230.0" onMouseClicked="#PlaceC30" opacity="0.1" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle id="32" fx:id="C32" fill="DODGERBLUE" layoutX="224.0" layoutY="230.0" onMouseClicked="#PlaceC32" opacity="0.1" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle id="33" fx:id="C33" fill="DODGERBLUE" layoutX="250.0" layoutY="244.0" onMouseClicked="#PlaceC33" opacity="0.1" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle id="34" fx:id="C34" fill="DODGERBLUE" layoutX="276.0" layoutY="230.0" onMouseClicked="#PlaceC34" opacity="0.1" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle id="36" fx:id="C36" fill="DODGERBLUE" layoutX="325.0" layoutY="230.0" onMouseClicked="#PlaceC36" opacity="0.1" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle id="45" fx:id="C45" fill="DODGERBLUE" layoutX="301.0" layoutY="273.0" onMouseClicked="#PlaceC45" opacity="0.1" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle id="44" fx:id="C44" fill="DODGERBLUE" layoutX="276.0" layoutY="289.0" onMouseClicked="#PlaceC44" opacity="0.1" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle id="43" fx:id="C43" fill="DODGERBLUE" layoutX="250.0" layoutY="274.0" onMouseClicked="#PlaceC43" opacity="0.1" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle id="42" fx:id="C42" fill="DODGERBLUE" layoutX="225.0" layoutY="289.0" onMouseClicked="#PlaceC42" opacity="0.1" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle id="41" fx:id="C41" fill="DODGERBLUE" layoutX="200.0" layoutY="274.0" onMouseClicked="#PlaceC41" opacity="0.1" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle id="40" fx:id="C40" fill="DODGERBLUE" layoutX="176.0" layoutY="290.0" onMouseClicked="#PlaceC40" opacity="0.1" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle id="48" fx:id="C48" fill="DODGERBLUE" layoutX="175.0" layoutY="318.0" onMouseClicked="#PlaceC48" opacity="0.1" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle id="49" fx:id="C49" fill="DODGERBLUE" layoutX="200.0" layoutY="334.0" onMouseClicked="#PlaceC49" opacity="0.1" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle id="50" fx:id="C50" fill="DODGERBLUE" layoutX="225.0" layoutY="318.0" onMouseClicked="#PlaceC50" opacity="0.1" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle id="51" fx:id="C51" fill="DODGERBLUE" layoutX="250.0" layoutY="334.0" onMouseClicked="#PlaceC51" opacity="0.1" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle id="52" fx:id="C52" fill="DODGERBLUE" layoutX="275.0" layoutY="318.0" onMouseClicked="#PlaceC52" opacity="0.1" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle id="53" fx:id="C53" fill="DODGERBLUE" layoutX="300.0" layoutY="334.0" onMouseClicked="#PlaceC53" opacity="0.1" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle id="37" fx:id="C37" fill="DODGERBLUE" layoutX="350.0" layoutY="242.0" onMouseClicked="#PlaceC37" opacity="0.1" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle id="47" fx:id="C47" fill="DODGERBLUE" layoutX="350.0" layoutY="274.0" onMouseClicked="#PlaceC47" opacity="0.1" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle id="38" fx:id="C38" fill="DODGERBLUE" layoutX="375.0" layoutY="230.0" onMouseClicked="#PlaceC38" opacity="0.1" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle id="46" fx:id="C46" fill="DODGERBLUE" layoutX="325.0" layoutY="289.0" onMouseClicked="#PlaceC46" opacity="0.1" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle id="54" fx:id="C54" fill="DODGERBLUE" layoutX="325.0" layoutY="318.0" onMouseClicked="#PlaceC54" opacity="0.1" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle id="31" fx:id="C31" fill="DODGERBLUE" layoutX="200.0" layoutY="244.0" onMouseClicked="#PlaceC31" opacity="0.1" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle id="39" fx:id="C39" fill="DODGERBLUE" layoutX="150.0" layoutY="274.0" onMouseClicked="#PlaceC39" opacity="0.1" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+
+      <Ellipse id="1" fx:id="E1" fill="DODGERBLUE" layoutX="192.0" layoutY="102.0" onMouseClicked="#PlaceE1" opacity="0.1" radiusX="8.0" radiusY="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse id="2" fx:id="E2" fill="DODGERBLUE" layoutX="212.0" layoutY="102.0" onMouseClicked="#PlaceE2" opacity="0.1" radiusX="8.0" radiusY="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse id="3" fx:id="E3" fill="DODGERBLUE" layoutX="233.0" layoutY="103.0" onMouseClicked="#PlaceE3" opacity="0.1" radiusX="8.0" radiusY="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse id="7" fx:id="E7" fill="DODGERBLUE" layoutX="176.0" layoutY="122.0" onMouseClicked="#PlaceE7" opacity="0.1" radiusX="8.0" radiusY="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse id="12" fx:id="E12" fill="DODGERBLUE" layoutX="184.0" layoutY="146.0" onMouseClicked="#PlaceE12" opacity="0.1" radiusX="8.0" radiusY="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse id="8" fx:id="E8" fill="DODGERBLUE" layoutX="224.0" layoutY="125.0" onMouseClicked="#PlaceE8" opacity="0.1" radiusX="8.0" radiusY="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse id="16" fx:id="E16" fill="DODGERBLUE" layoutX="292.0" layoutY="148.0" onMouseClicked="#PlaceE16" opacity="0.1" radiusX="8.0" radiusY="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse id="14" fx:id="E14" fill="DODGERBLUE" layoutX="233.0" layoutY="146.0" onMouseClicked="#PlaceE14" opacity="0.1" radiusX="8.0" radiusY="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse id="9" fx:id="E9" fill="DODGERBLUE" layoutX="275.0" layoutY="126.0" onMouseClicked="#PlaceE9" opacity="0.1" radiusX="8.0" radiusY="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse id="4" fx:id="E4" fill="DODGERBLUE" layoutX="264.0" layoutY="104.0" onMouseClicked="#PlaceE4" opacity="0.1" radiusX="8.0" radiusY="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse id="5" fx:id="E5" fill="DODGERBLUE" layoutX="288.0" layoutY="103.0" onMouseClicked="#PlaceE5" opacity="0.1" radiusX="8.0" radiusY="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse id="6" fx:id="E6" fill="DODGERBLUE" layoutX="312.0" layoutY="104.0" onMouseClicked="#PlaceE6" opacity="0.1" radiusX="8.0" radiusY="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse id="10" fx:id="E10" fill="DODGERBLUE" layoutX="326.0" layoutY="126.0" onMouseClicked="#PlaceE10" opacity="0.1" radiusX="8.0" radiusY="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse id="18" fx:id="E18" fill="DODGERBLUE" layoutX="334.0" layoutY="149.0" onMouseClicked="#PlaceE18" opacity="0.1" radiusX="8.0" radiusY="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse id="23" fx:id="E23" fill="DODGERBLUE" layoutX="350.0" layoutY="170.0" onMouseClicked="#PlaceE23" opacity="0.1" radiusX="8.0" radiusY="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse id="33" fx:id="E33" fill="DODGERBLUE" layoutX="360.0" layoutY="193.0" onMouseClicked="#PlaceE33" opacity="0.1" radiusX="8.0" radiusY="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse id="22" fx:id="E22" fill="DODGERBLUE" layoutX="301.0" layoutY="170.0" onMouseClicked="#PlaceE22" opacity="0.1" radiusX="8.0" radiusY="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse id="21" fx:id="E21" fill="DODGERBLUE" layoutX="251.0" layoutY="170.0" onMouseClicked="#PlaceE21" opacity="0.1" radiusX="8.0" radiusY="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse id="20" fx:id="E20" fill="DODGERBLUE" layoutX="200.0" layoutY="168.0" onMouseClicked="#PlaceE20" opacity="0.1" radiusX="8.0" radiusY="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse id="11" fx:id="E11" fill="DODGERBLUE" layoutX="164.0" layoutY="147.0" onMouseClicked="#PlaceE11" opacity="0.1" radiusX="8.0" radiusY="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse id="19" fx:id="E19" fill="DODGERBLUE" layoutX="150.0" layoutY="168.0" onMouseClicked="#PlaceE19" opacity="0.1" radiusX="8.0" radiusY="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse id="26" fx:id="E26" fill="DODGERBLUE" layoutX="192.0" layoutY="193.0" onMouseClicked="#PlaceE26" opacity="0.1" radiusX="8.0" radiusY="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse id="25" fx:id="E25" fill="DODGERBLUE" layoutX="164.0" layoutY="193.0" onMouseClicked="#PlaceE25" opacity="0.1" radiusX="8.0" radiusY="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse id="24" fx:id="E24" fill="DODGERBLUE" layoutX="135.0" layoutY="193.0" onMouseClicked="#PlaceE24" opacity="0.1" radiusX="8.0" radiusY="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse id="34" fx:id="E34" fill="DODGERBLUE" layoutX="127.0" layoutY="215.0" onMouseClicked="#PlaceE34" opacity="0.1" radiusX="8.0" radiusY="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse id="40" fx:id="E40" fill="DODGERBLUE" layoutX="135.0" layoutY="235.0" onMouseClicked="#PlaceE40" opacity="0.1" radiusX="8.0" radiusY="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse id="35" fx:id="E35" fill="DODGERBLUE" layoutX="175.0" layoutY="215.0" onMouseClicked="#PlaceE35" opacity="0.1" radiusX="8.0" radiusY="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse id="36" fx:id="E36" fill="DODGERBLUE" layoutX="224.0" layoutY="215.0" onMouseClicked="#PlaceE36" opacity="0.1" radiusX="8.0" radiusY="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse id="37" fx:id="E37" fill="DODGERBLUE" layoutX="275.0" layoutY="215.0" onMouseClicked="#PlaceE37" opacity="0.1" radiusX="8.0" radiusY="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse id="13" fx:id="E13" fill="DODGERBLUE" layoutX="212.0" layoutY="146.0" onMouseClicked="#PlaceE13" opacity="0.1" radiusX="8.0" radiusY="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse id="15" fx:id="E15" fill="DODGERBLUE" layoutX="264.0" layoutY="149.0" onMouseClicked="#PlaceE15" opacity="0.1" radiusX="8.0" radiusY="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse id="17" fx:id="E17" fill="DODGERBLUE" layoutX="312.0" layoutY="149.0" onMouseClicked="#PlaceE17" opacity="0.1" radiusX="8.0" radiusY="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse id="31" fx:id="E31" fill="DODGERBLUE" layoutX="312.0" layoutY="192.0" onMouseClicked="#PlaceE31" opacity="0.1" radiusX="8.0" radiusY="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse id="32" fx:id="E32" fill="DODGERBLUE" layoutX="338.0" layoutY="192.0" onMouseClicked="#PlaceE32" opacity="0.1" radiusX="8.0" radiusY="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse id="28" fx:id="E28" fill="DODGERBLUE" layoutX="239.0" layoutY="192.0" onMouseClicked="#PlaceE28" opacity="0.1" radiusX="8.0" radiusY="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse id="29" fx:id="E29" fill="DODGERBLUE" layoutX="262.0" layoutY="192.0" onMouseClicked="#PlaceE29" opacity="0.1" radiusX="8.0" radiusY="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse id="30" fx:id="E30" fill="DODGERBLUE" layoutX="288.0" layoutY="193.0" onMouseClicked="#PlaceE30" opacity="0.1" radiusX="8.0" radiusY="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse id="38" fx:id="E38" fill="DODGERBLUE" layoutX="325.0" layoutY="215.0" onMouseClicked="#PlaceE38" opacity="0.1" radiusX="8.0" radiusY="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse id="39" fx:id="E39" fill="DODGERBLUE" layoutX="375.0" layoutY="215.0" onMouseClicked="#PlaceE39" opacity="0.1" radiusX="8.0" radiusY="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse id="49" fx:id="E49" fill="DODGERBLUE" layoutX="366.0" layoutY="236.0" onMouseClicked="#PlaceE49" opacity="0.1" radiusX="8.0" radiusY="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse id="48" fx:id="E48" fill="DODGERBLUE" layoutX="338.0" layoutY="237.0" onMouseClicked="#PlaceE48" opacity="0.1" radiusX="8.0" radiusY="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse id="47" fx:id="E47" fill="DODGERBLUE" layoutX="313.0" layoutY="238.0" onMouseClicked="#PlaceE47" opacity="0.1" radiusX="8.0" radiusY="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse id="46" fx:id="E46" fill="DODGERBLUE" layoutX="287.0" layoutY="237.0" onMouseClicked="#PlaceE46" opacity="0.1" radiusX="8.0" radiusY="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse id="45" fx:id="E45" fill="DODGERBLUE" layoutX="263.0" layoutY="237.0" onMouseClicked="#PlaceE45" opacity="0.1" radiusX="8.0" radiusY="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse id="44" fx:id="E44" fill="DODGERBLUE" layoutX="237.0" layoutY="237.0" onMouseClicked="#PlaceE44" opacity="0.1" radiusX="8.0" radiusY="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse id="43" fx:id="E43" fill="DODGERBLUE" layoutX="212.0" layoutY="237.0" onMouseClicked="#PlaceE43" opacity="0.1" radiusX="8.0" radiusY="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse id="42" fx:id="E42" fill="DODGERBLUE" layoutX="186.0" layoutY="238.0" onMouseClicked="#PlaceE42" opacity="0.1" radiusX="8.0" radiusY="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse id="41" fx:id="E41" fill="DODGERBLUE" layoutX="164.0" layoutY="238.0" onMouseClicked="#PlaceE41" opacity="0.1" radiusX="8.0" radiusY="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse id="27" fx:id="E27" fill="DODGERBLUE" layoutX="212.0" layoutY="193.0" onMouseClicked="#PlaceE27" opacity="0.1" radiusX="8.0" radiusY="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse id="51" fx:id="E51" fill="DODGERBLUE" layoutX="200.0" layoutY="260.0" onMouseClicked="#PlaceE51" opacity="0.1" radiusX="8.0" radiusY="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse id="50" fx:id="E50" fill="DODGERBLUE" layoutX="150.0" layoutY="256.0" onMouseClicked="#PlaceE50" opacity="0.1" radiusX="8.0" radiusY="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse id="56" fx:id="E56" fill="DODGERBLUE" layoutX="186.0" layoutY="282.0" onMouseClicked="#PlaceE56" opacity="0.1" radiusX="8.0" radiusY="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse id="55" fx:id="E55" fill="DODGERBLUE" layoutX="164.0" layoutY="282.0" onMouseClicked="#PlaceE55" opacity="0.1" radiusX="8.0" radiusY="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse id="63" fx:id="E63" fill="DODGERBLUE" layoutX="176.0" layoutY="304.0" onMouseClicked="#PlaceE63" opacity="0.1" radiusX="8.0" radiusY="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse id="67" fx:id="E67" fill="DODGERBLUE" layoutX="186.0" layoutY="326.0" onMouseClicked="#PlaceE67" opacity="0.1" radiusX="8.0" radiusY="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse id="68" fx:id="E68" fill="DODGERBLUE" layoutX="212.0" layoutY="326.0" onMouseClicked="#PlaceE68" opacity="0.1" radiusX="8.0" radiusY="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse id="69" fx:id="E69" fill="DODGERBLUE" layoutX="237.0" layoutY="326.0" onMouseClicked="#PlaceE69" opacity="0.1" radiusX="8.0" radiusY="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse id="70" fx:id="E70" fill="DODGERBLUE" layoutX="259.0" layoutY="326.0" onMouseClicked="#PlaceE70" opacity="0.1" radiusX="8.0" radiusY="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse id="71" fx:id="E71" fill="DODGERBLUE" layoutX="287.0" layoutY="326.0" onMouseClicked="#PlaceE71" opacity="0.1" radiusX="8.0" radiusY="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse id="72" fx:id="E72" fill="DODGERBLUE" layoutX="312.0" layoutY="326.0" onMouseClicked="#PlaceE72" opacity="0.1" radiusX="8.0" radiusY="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse id="66" fx:id="E66" fill="DODGERBLUE" layoutX="326.0" layoutY="304.0" onMouseClicked="#PlaceE66" opacity="0.1" radiusX="8.0" radiusY="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse id="65" fx:id="E65" fill="DODGERBLUE" layoutX="276.0" layoutY="300.0" onMouseClicked="#PlaceE65" opacity="0.1" radiusX="8.0" radiusY="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse id="64" fx:id="E64" fill="DODGERBLUE" layoutX="224.0" layoutY="304.0" onMouseClicked="#PlaceE64" opacity="0.1" radiusX="8.0" radiusY="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse id="57" fx:id="E57" fill="DODGERBLUE" layoutX="212.0" layoutY="281.0" onMouseClicked="#PlaceE57" opacity="0.1" radiusX="8.0" radiusY="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse id="58" fx:id="E58" fill="DODGERBLUE" layoutX="237.0" layoutY="281.0" onMouseClicked="#PlaceE58" opacity="0.1" radiusX="8.0" radiusY="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse id="52" fx:id="E52" fill="DODGERBLUE" layoutX="250.0" layoutY="260.0" onMouseClicked="#PlaceE52" opacity="0.1" radiusX="8.0" radiusY="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse id="59" fx:id="E59" fill="DODGERBLUE" layoutX="264.0" layoutY="281.0" onMouseClicked="#PlaceE59" opacity="0.1" radiusX="8.0" radiusY="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse id="60" fx:id="E60" fill="DODGERBLUE" layoutX="287.0" layoutY="282.0" onMouseClicked="#PlaceE60" opacity="0.1" radiusX="8.0" radiusY="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse id="53" fx:id="E53" fill="DODGERBLUE" layoutX="301.0" layoutY="260.0" onMouseClicked="#PlaceE53" opacity="0.1" radiusX="8.0" radiusY="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse id="54" fx:id="E54" fill="DODGERBLUE" layoutX="350.0" layoutY="260.0" onMouseClicked="#PlaceE54" opacity="0.1" radiusX="8.0" radiusY="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse id="61" fx:id="E61" fill="DODGERBLUE" layoutX="312.0" layoutY="282.0" onMouseClicked="#PlaceE61" opacity="0.1" radiusX="8.0" radiusY="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse id="62" fx:id="E62" fill="DODGERBLUE" layoutX="338.0" layoutY="281.0" onMouseClicked="#PlaceE62" opacity="0.1" radiusX="8.0" radiusY="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Button layoutX="216.0" layoutY="31.0" mnemonicParsing="false" onAction="#ShowCards" text="Show Cards On Hand" />
+      </children>
+</AnchorPane>
